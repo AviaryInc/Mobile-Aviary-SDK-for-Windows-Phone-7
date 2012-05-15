@@ -17,10 +17,10 @@ How to integrate the Aviary SDK into your WP7 project
 ### 2. Add reference to the Aviary SDK related DLLs, see screenshot reference below:
 ![step 2](http://images.aviary.com/new/wp7/step%202.png)
 
-### 3. Copy folder �icons� to the root folder of the App, see screenshot below:
+### 3. Copy folder `icons` to the root folder of the App, see screenshot below:
 ![step 3](http://images.aviary.com/new/wp7/step%203.png)
                       
-  *Note: The �Build Action� of the images files contained in �icons� folder should be changed to �Content� from the default value of �Resource�.*
+  *Note: The `Build Action` of the images files contained in `icons` folder should be changed to `Content` from the default value of `Resource`.*
 
 ![step 3(2)](http://images.aviary.com/new/wp7/step%203-2.png)
                            
