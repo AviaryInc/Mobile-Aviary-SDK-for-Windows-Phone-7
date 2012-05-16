@@ -26,7 +26,7 @@ How to integrate the Aviary SDK into your WP7 project
                            
 ### 4. Add the following code to App.xaml:
  
-	  	xalns:resources="clr-namespace:AviarySDK.Resources;assembly=AviarySDK"
+	  	xmlns:resources="clr-namespace:AviarySDK.Resources;assembly=AviarySDK"
 		
 		<!--Application Resources-->
 		<Application.Resources>
