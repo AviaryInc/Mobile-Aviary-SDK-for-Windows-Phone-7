@@ -15,7 +15,7 @@ How to integrate the Aviary SDK into your WP7 project
 ### 1. Copy Aviary SDK All files to Project root folder.
 
 ### 2. Add reference to the Aviary SDK related DLLs, see screenshot reference below:
-![step 2](http://images.aviary.com/new/wp7/step%202.png)
+![step 2](http://images.aviary.com/new/wp7/Step2.png)
 
 ### 3. Copy folder `icons` to the root folder of the App, see screenshot below:
 ![step 3](http://images.aviary.com/new/wp7/step%203.png)
@@ -24,22 +24,7 @@ How to integrate the Aviary SDK into your WP7 project
 
 ![step 3(2)](http://images.aviary.com/new/wp7/step%203-2.png)
                            
-### 4. Add the following code to App.xaml:
- 
-	  	xmlns:resources="clr-namespace:AviarySDK.Resources;assembly=AviarySDK"
-		
-		<!--Application Resources-->
-		<Application.Resources>
-			<ResourceDictionary>
-				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="/AviarySDK;component/Themes/generic.xaml"/>
-				</ResourceDictionary.MergedDictionaries>
-				<resources:Images x:Key="ImageResources"/>
-				<aviary:LocalizedStrings xmlns:aviary="clr-namespace:AviarySDK;assembly=AviarySDK" x:Key="LocalizedStrings" />
-			</ResourceDictionary>
-		</Application.Resources>
-
-To execute the Aviary Editor in the SDK, you need to do the following inside the source code.
+### 4. Code
 
 #### 4.1 For any source code calling any API in the SDK, you need to first reference the SDK:
 
